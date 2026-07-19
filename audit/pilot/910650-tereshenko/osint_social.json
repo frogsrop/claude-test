@@ -1,0 +1,66 @@
+{
+  "doctor": {
+    "full_name": "Терещенко Николай Михайлович",
+    "city": "Санкт-Петербург",
+    "specialty": "невролог, вертебролог, цефалголог",
+    "profile": "https://prodoctorov.ru/spb/vrach/910650-tereshenko/"
+  },
+  "angle": "соцсети и медиа: VK, Telegram, YouTube, Дзен, Instagram, интервью и комментарии в СМИ, личный сайт, блоги",
+  "accepted_findings": [
+    {
+      "fact": "Авторские научно-популярные статьи (~26 материалов) под его именем на сайте Смарт Клиник (бруксизм, цервикогенная головная боль, лечение грыж дисков и т.д.) — публикационно-медийное присутствие на клиническом сайте.",
+      "source_url": "https://smartclinicspb.ru/spetsialisty/216-tereshchenko-nikolay-mihaylovich/",
+      "category": "media",
+      "identity_confidence": 0.85,
+      "identity_evidence": "ФИО с отчеством (0.5) + город СПб (0.2) + специальность невролог/цефалголог/вертебролог (0.15); страница является его именным профилем врача",
+      "accepted": true
+    },
+    {
+      "fact": "Видеоролик о враче на YouTube (youtu.be/5hAC6nFWJsc), ссылка размещена на его именной странице в клинике «Астроцит». Содержимое видео не удалось проверить — YouTube отдал капчу Google. Вероятно презентационное/интервью-видео врача.",
+      "source_url": "https://astrocyte.spb.ru/doctors/tereshhenko-nikolaj-mihajlovich/",
+      "category": "media",
+      "identity_confidence": 0.82,
+      "identity_evidence": "видео прямо привязано к его именной странице врача (взаимная привязка к профилю); ФИО+город+специальность совпадают. Содержимое ролика не верифицировано.",
+      "accepted": true
+    }
+  ],
+  "rejected_findings": [
+    {
+      "fact": "Telegram-канал «Доктор Наталья Терещенко» @tereshenkonline (невролог, психотерапевт, сексолог, автор книги)",
+      "source_url": "https://tgstat.ru/en/channel/@tereshenkonline",
+      "category": "social",
+      "identity_confidence": 0.1,
+      "identity_evidence": "другое имя/отчество (Наталья, не Николай Михайлович), другая специальность/профиль — однофамилец",
+      "accepted": false,
+      "reject_reason": "другой человек (Наталья Терещенко)"
+    },
+    {
+      "fact": "Комментарий невролога «Невролог объяснил, как отличить мигрень от обычной головной боли» (Чемпионат)",
+      "source_url": "https://www.championat.ru/lifestyle/news-6408798-nevrolog-obyasnil-kak-otlichit-migren-ot-obychnoj-golovnoj-boli.html",
+      "category": "media",
+      "identity_confidence": 0.0,
+      "identity_evidence": "в статье назван Александр Комаров, руководитель реабилитационного центра — не Терещенко",
+      "accepted": false,
+      "reject_reason": "другой невролог (Александр Комаров)"
+    },
+    {
+      "fact": "Статья «Врач-невролог, доктор медицинских наук объяснила разницу между мигренью и головной болью» (sb.by)",
+      "source_url": "https://www.sb.by/articles/vrach-nevrolog-doktor-meditsinskikh-nauk-obyasnila-raznitsu-mezhdu-migrenyu-i-golovnoy-bolyu.html",
+      "category": "media",
+      "identity_confidence": 0.0,
+      "identity_evidence": "автор комментария — женщина, д.м.н.; Терещенко — мужчина, аспирант без степени д.м.н.",
+      "accepted": false,
+      "reject_reason": "другой специалист"
+    },
+    {
+      "fact": "Статья «Невролог: мигрень — не просто головная боль» (lsm.lv, 05.07.2026)",
+      "source_url": "https://rus.lsm.lv/statja/novosti/obschestvo/05.07.2026-nevrolog-migren-ne-prosto-golovnaya-bol-a-vrozdennoe-nevrologiceskoe-zabolevanie.a653912/",
+      "category": "media",
+      "identity_confidence": 0.1,
+      "identity_evidence": "имя невролога не совпадает с Терещенко; латвийское издание, привязки к СПб/клиникам якорей нет",
+      "accepted": false,
+      "reject_reason": "не подтверждено, вероятно другой невролог"
+    }
+  ],
+  "negative_notes": "Персональных аккаунтов в VK, Telegram, YouTube, Instagram, Дзен, а также личного сайта или блога у самого врача не найдено. Аккаунты соцсетей в источниках принадлежат клиникам (Смарт Клиник: t.me/smartclinicspb, vk.com/smartclinicspb; Астроцит: t.me/Astrocytespb, vk.com/astrocytespb; Temed), а не лично врачу."
+}

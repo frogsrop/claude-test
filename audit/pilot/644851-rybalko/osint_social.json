@@ -1,0 +1,70 @@
+{
+  "doctor": {
+    "full_name": "Рыбалко Николай Андреевич",
+    "city": "Санкт-Петербург",
+    "specialty": "Невролог",
+    "profile": "https://prodoctorov.ru/spb/vrach/644851-rybalko/"
+  },
+  "angle": "social_media_and_media (VK, Telegram, YouTube, Дзен, Instagram, СМИ-интервью, личный сайт, блоги)",
+  "accepted_findings": [],
+  "rejected_findings": [
+    {
+      "fact": "Instagram @nikolay_rybalko — тёзка, профиль без указания специальности/города/клиники, привязка к врачу не подтверждается",
+      "source_url": "https://www.instagram.com/nikolay_rybalko/?hl=ru",
+      "category": "social",
+      "identity_confidence": 0.3,
+      "identity_evidence": "совпадает только ФИО без отчества (0.3); нет города, специальности, клиники, взаимной ссылки; Instagram недоступен без логина (HTTP 429), содержимое не проверено",
+      "accepted": false
+    },
+    {
+      "fact": "Instagram @nicholas_fishing_rybalko — хобби-аккаунт о рыбалке (игра слов «рыбалка»/«Рыбалко»), к неврологу отношения не имеет",
+      "source_url": "https://www.instagram.com/nicholas_fishing_rybalko/",
+      "category": "social",
+      "identity_confidence": 0.15,
+      "identity_evidence": "тематика — рыбалка/хобби, не медицина; нет совпадений по городу/специальности/клинике",
+      "accepted": false
+    },
+    {
+      "fact": "YouTube-канал «Илья Рыбалко» (@Iliya_Rybalko) — другое имя (Илья, не Николай)",
+      "source_url": "https://www.youtube.com/@Iliya_Rybalko",
+      "category": "media",
+      "identity_confidence": 0.1,
+      "identity_evidence": "несовпадение имени (Илья vs Николай); однофамилец",
+      "accepted": false
+    },
+    {
+      "fact": "Николай Рыбалко, Ростов-на-Дону (ru-world.net) — тёзка из другого города",
+      "source_url": "https://ru-world.net/profile/rybalko-nikolay-5860740195",
+      "category": "social",
+      "identity_confidence": 0.2,
+      "identity_evidence": "ФИО без отчества (0.3), но город Ростов-на-Дону противоречит якорю СПб; вероятный однофамилец",
+      "accepted": false
+    },
+    {
+      "fact": "Рыбалко Николай Николаевич, врач в Ростове-на-Дону (like.doctor) — другое отчество и город",
+      "source_url": "https://like.doctor/rostovnadonu/vrachi/ribalko-nikolay-nikolaevich",
+      "category": "negative",
+      "identity_confidence": 0.1,
+      "identity_evidence": "отчество Николаевич vs Андреевич; город Ростов-на-Дону; однофамилец",
+      "accepted": false
+    }
+  ],
+  "no_presence_found": {
+    "vk": "профиль ВКонтакте врача не найден в поисковой выдаче",
+    "telegram": "личный/врачебный Telegram-канал не найден",
+    "dzen": "блог на Дзен не найден",
+    "youtube": "собственного канала/видео/лекций не найдено (найдены только однофамильцы)",
+    "instagram": "подтверждённого врачебного аккаунта нет (только неподтверждённые тёзки)",
+    "smi_interviews": "интервью/комментарии в СМИ не найдены",
+    "personal_site_blog": "личный сайт/блог не найден"
+  },
+  "adjacent_non_social_context": {
+    "note": "Не относится к соцсетям/медиа, но полезно как контекст идентичности — найдено в поиске",
+    "items": [
+      "Клиническая публикация в журнале «Современные проблемы науки и образования» (2015), КрасГМУ — подтверждает вуз/период из якорей",
+      "Ранее — гл. врач/невролог благотворительного фонда «Центр Г.Н. Романова» (детская реабилитация, СПб), ~2017",
+      "Директории с отзывами (не соцсети): napopravku, zoon, yandex.medicine, doctu, vkmb.ru благодарности"
+    ]
+  },
+  "search_notes": "Выполнены поиски на русском по формулам ФИО+специальность, ФИО+клиника (Кудрово/Всеволожск), ФИО+город, ФИО+вуз(КрасГМУ 2016), а также прямые запросы по VK/Telegram/Дзен/YouTube/Instagram/СМИ. Подтверждённого присутствия врача в соцсетях и медиа по углу не обнаружено. Instagram недоступен для проверки контента (HTTP 429 без логина). Найденные аккаунты в Instagram/YouTube/др. — тёзки/однофамильцы без совпадений по городу, специальности или клинике, отброшены. Профиль ПроДокторов не содержит ссылок на соцсети."
+}

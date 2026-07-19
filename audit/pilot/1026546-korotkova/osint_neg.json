@@ -1,0 +1,60 @@
+{
+  "doctor": "Короткова Дарья Сергеевна",
+  "profile": "https://prodoctorov.ru/spb/vrach/1026546-korotkova/",
+  "angle": "negative (patient complaints on other platforms, court cases, disciplinary, media scandals)",
+  "date": "2026-07-19",
+  "accepted_findings": [
+    {
+      "fact": "На ПроДокторов профиль имеет рейтинг 5.0, 29 отзывов, все положительные; негативных отзывов/жалоб пациентов не обнаружено.",
+      "source_url": "https://prodoctorov.ru/spb/vrach/1026546-korotkova/",
+      "category": "negative",
+      "identity_confidence": 1.0,
+      "identity_evidence": "Это исходный профиль-якорь (ФИО+отчество, город, специальность, клиники совпадают)",
+      "accepted": true
+    },
+    {
+      "fact": "Официальная страница на сайте Смарт Клиник подтверждает якоря идентичности (ИГМУ 2020 диплом с отличием, ординатура НМИЦ им. Алмазова 2022, Елизаветинская больница 2022-2023, TEMED 2023-2024, Смарт Клиник 2024-н.в.). Негативной информации нет.",
+      "source_url": "https://smartclinicspb.ru/spetsialisty/korotkova-darya-sergeevna/",
+      "category": "credential",
+      "identity_confidence": 1.0,
+      "identity_evidence": "ФИО+отчество, город, специальность, все три клиники из якорей, вуз и год выпуска совпадают",
+      "accepted": true
+    },
+    {
+      "fact": "Профиль онлайн-консультаций на Docma.ru (Короткова Дарья Сергеевна, невролог, цефалголог). Негатива не содержит.",
+      "source_url": "https://docma.ru/zadatvopros/tproduct/477040682-853288583372-korotkova-darya-sergeevna",
+      "category": "other",
+      "identity_confidence": 0.85,
+      "identity_evidence": "ФИО+отчество, специальность невролог/цефалголог совпадают",
+      "accepted": true
+    }
+  ],
+  "negative_result": "Не найдено: негативных отзывов пациентов на НаПоправку/Яндекс/2ГИС/отзовиках, судебных дел, дисциплинарных мер, скандалов в СМИ. Отзывы о Елизаветинской больнице в целом (в т.ч. критические) не атрибутируются лично этому врачу.",
+  "rejected_findings": [
+    {
+      "fact": "Короткова Дарья Григорьевна, детский невролог, Челябинск (МЦ Добрый Доктор)",
+      "source_url": "https://prodoctorov.ru/chelyabinsk/vrach/742515-korotkova/",
+      "reason": "другое отчество (Григорьевна), другой город, детский невролог",
+      "identity_confidence": 0.15
+    },
+    {
+      "fact": "Короткова Татьяна Александровна, невролог (Саратов, Yandex)",
+      "source_url": "https://yandex.ru/medicine/doctor/korotkova_tatyana_9Va0T6DRql20U",
+      "reason": "другое имя и отчество, другой город",
+      "identity_confidence": 0.05
+    },
+    {
+      "fact": "Короткова Инна Вячеславовна, невролог (Yandex)",
+      "source_url": "https://yandex.ru/medicine/doctor/korotkova_inna_TQoNauczVBjBS",
+      "reason": "другое имя и отчество",
+      "identity_confidence": 0.05
+    },
+    {
+      "fact": "Коротких Ксения Сергеевна, невролог, СПб (НаПоправку)",
+      "source_url": "https://spb.napopravku.ru/doctor-profile/korotkikh-kseniya-sergeevna/",
+      "reason": "другая фамилия (Коротких) и имя",
+      "identity_confidence": 0.05
+    }
+  ],
+  "search_notes": "Проверены формулировки: ФИО+специальность, ФИО+клиника (Temed/Смарт Клиник/Елизаветинская), ФИО+город, ФИО+суд/дисциплинарное/врачебная ошибка, ФИО+отзовик/грубая/некомпетентная. Платформы: ПроДокторов, НаПоправку, Яндекс, 2ГИС, отзовик. Негатива, судебных дел и упоминаний в СМИ по данному врачу не обнаружено. Собственного профиля на НаПоправку в СПб для этого врача не найдено (в выдаче — однофамильцы). Персональные соцсети (VK/Telegram) врача не найдены — на сайте клиники указаны только каналы самой клиники."
+}

@@ -1,0 +1,129 @@
+{
+  "doctor": {
+    "full_name": "Тонян Самвел Николаевич",
+    "profile": "https://prodoctorov.ru/spb/vrach/1082038-tonyan/",
+    "angle": "scientific publications, dissertations, patents, conferences, teaching",
+    "identity_anchors_confirmed": {
+      "SPbGPMU_pediatrics_2019": true,
+      "SPbU_neurology_ordinatura_2021": true,
+      "Almazov_aspirantura_neurology_2024": true,
+      "email_found": "samvelium@gmail.com (listed as S.T. in Pathophysiology 2023 NT-3 paper)"
+    }
+  },
+  "accepted": [
+    {
+      "fact": "Первый автор международной статьи: Tonyan S., Pospelova M., Krasnikova V., Fionik O., Alekseeva T., Samochernykh K., Ivanova N., Vavilova T., Vasilieva E., Makhanova A., Nikolaeva A., Bukkieva T., Combs S., Shevtsov M. 'Neurotrophin-3 (NT-3) as a Potential Biomarker of the Peripheral Nervous System Damage Following Breast Cancer Treatment'. Pathophysiology (MDPI) 2023, 30, 110-122. DOI 10.3390/pathophysiology30020010. Аффилиация: Personalized Medicine Centre, Almazov NMRC. E-mail S.T. = samvelium@gmail.com. Совпадает с темой аспирантуры (влияние радикального лечения онкозаболеваний на НС).",
+      "source_url": "https://doi.org/10.3390/pathophysiology30020010",
+      "category": "publication",
+      "identity_confidence": 0.97,
+      "identity_evidence": "ФИО+инициал отчества (S.N.)+имя Samvel; личный e-mail samvelium@gmail.com; Almazov аспирантура (совпадает с якорем); тема = тема диссертации; редкая (армянская) фамилия; первый автор",
+      "accepted": true
+    },
+    {
+      "fact": "Соавтор (5-й): Bukkieva T.A., Pospelova M.L., Anpilogova K.S., Fionik O.V., Alekseeva T.M., Gorbunova E.A., Krasnikova V.V., Makhanova A.M., Tonyan S.N., Levchuk A.G., Trufanov G.E. 'Изменения структурного коннектома головного мозга у пациенток с постмастэктомическим синдромом'. Трансляционная медицина, 2021. Тонян указан как аспирант кафедры неврологии и психиатрии.",
+      "source_url": "https://transmed.almazovcentre.ru/jour/article/view/655",
+      "category": "publication",
+      "identity_confidence": 0.95,
+      "identity_evidence": "ФИО С.Н. Тонян + описан как аспирант кафедры неврологии (совпадает с якорем СПбУ/Алмазов), СПб, группа постмастэктомического синдрома Алмазова, редкая фамилия",
+      "accepted": true
+    },
+    {
+      "fact": "Соавтор (7-й): Makhanova A.M., Pospelova M.L., Ryzhkova D.V., Alexeeva T.M., Fionik O.V., Krasnikova V.V., Tonyan S.N., Nikolaeva A.E., Bukkieva T.A. и др. 'Comparison of the state of brain metabolism and psycho emotional disorders in patients with postmastectomy syndrome'. Russian Military Medical Academy Reports (Известия ВМА), 2022. DOI 10.17816/rmmar111887.",
+      "source_url": "https://doi.org/10.17816/rmmar111887",
+      "category": "publication",
+      "identity_confidence": 0.9,
+      "identity_evidence": "ФИО С.Н. Тонян, та же группа соавторов Алмазова (Pospelova, Fionik, Nikolaeva, Bukkieva), тема НС/онкология, редкая фамилия",
+      "accepted": true
+    },
+    {
+      "fact": "Соавтор (5-й): Nikolaeva A., Pospelova M., Krasnikova V., Makhanova A., Tonyan S., Krasnopeev Yu., Kayumova E., Vasilieva E., Efimtsev A., Levchuk A., Trufanov G., Voynov M., Shevtsov M. 'Elevated Levels of Serum Biomarkers Associated with Damage to the CNS Neurons and Endothelial Cells Are Linked with Changes in Brain Connectivity in Breast Cancer Patients with Vestibulo-Atactic Syndrome'. Pathophysiology (MDPI) 2023, 30(2):22. DOI 10.3390/pathophysiology30020022.",
+      "source_url": "https://doi.org/10.3390/pathophysiology30020022",
+      "category": "publication",
+      "identity_confidence": 0.95,
+      "identity_evidence": "имя Samvel Tonyan, аффилиация Almazov Personalized Medicine Centre, та же научная группа, тема совпадает с диссертацией, редкая фамилия",
+      "accepted": true
+    },
+    {
+      "fact": "Соавтор (10-й): 'Microstructural Properties of Brain White Matter Tracts in Breast Cancer Survivors: A Diffusion Tensor Imaging Study'. Pathophysiology (MDPI) 2022, 29(4):46. DOI 10.3390/pathophysiology29040046. Samvel Tonyan, Personalized Medicine Centre.",
+      "source_url": "https://doi.org/10.3390/pathophysiology29040046",
+      "category": "publication",
+      "identity_confidence": 0.92,
+      "identity_evidence": "имя Samvel Tonyan, аффилиация Almazov Personalized Medicine Centre, та же группа/тематика",
+      "accepted": true
+    },
+    {
+      "fact": "Соавтор (5-й): Nikolaeva A.T., Pospelova M.L., Krasnikova V.V., Makhanova A.M., Tonyan S.N., Fionik O.V., Efimtsev A.Yu., Levchuk A.G., Krasnopeev Yu.I. 'Clinical and neuroimaging laboratory possibilities of diagnostics of vestibulo-atactic syndrome in patients with postmastectomic syndrome'. Трансляционная медицина, 2023.",
+      "source_url": "https://transmed.almazovcentre.ru/jour/article/view/748",
+      "category": "publication",
+      "identity_confidence": 0.92,
+      "identity_evidence": "ФИО С.Н. Тонян, та же группа соавторов Алмазова, тема постмастэктомического синдрома",
+      "accepted": true
+    },
+    {
+      "fact": "Соавтор: 'MRI Voxel Morphometry Shows Brain Volume Changes in Breast Cancer Survivors: Implications for Treatment'. Pathophysiology (MDPI) 2025. PMC11944336. Вклад Тоняна: Methodology, Software, Formal analysis, Investigation, Writing.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11944336/",
+      "category": "publication",
+      "identity_confidence": 0.9,
+      "identity_evidence": "Samvel Tonyan в составе той же научной группы Алмазова по постмастэктомическому синдрому",
+      "accepted": true
+    },
+    {
+      "fact": "Доклад на заседании Ассоциации неврологов Санкт-Петербурга и Ленинградской области 16.01.2024 (18:20-18:40): 'Диагностические маркеры поражения периферической нервной системы при постмастэктомическом синдроме'. Представлен как врач-невролог, аспирант кафедры неврологии с клиникой ФГБУ 'НМИЦ им. В.А. Алмазова'.",
+      "source_url": "https://www.1spbgmu.ru/nauka/konferentsii/8177-16-01-2024-zasedaniye-assotsiatsii-nevrologov-spb-leninobl",
+      "category": "media",
+      "identity_confidence": 0.95,
+      "identity_evidence": "полное ФИО+отчество, специальность невролог, СПб, аспирант Алмазова (совпадает с якорями), редкая фамилия",
+      "accepted": true
+    },
+    {
+      "fact": "Аспирантура кафедры неврологии с клиникой ФГБУ 'НМИЦ им. В.А. Алмазова' Минздрава России, завершена в 2024 г.; тема научной работы — влияние радикального лечения онкологических заболеваний на нервную систему и нейрореабилитация. Научный сотрудник группы персонифицированного лечения постмастэктомического синдрома НИЦ персонализированной медицины Алмазова.",
+      "source_url": "https://mc21.ru/doctor/tonyan-samvel-nikolaevich/",
+      "category": "credential",
+      "identity_confidence": 0.95,
+      "identity_evidence": "источник — клиника из якорей (МЦ '21 век'), полное ФИО, совпадает с якорем аспирантуры и специальности",
+      "accepted": true
+    },
+    {
+      "fact": "Профиль исследователя в портале СПбГУ Pure (pureportal.spbu.ru) на имя 'Самвел Николаевич Тонян' — подтверждает научную аффилиацию с СПбГУ (совпадает с якорем: ординатура СПбГУ по неврологии, 2021).",
+      "source_url": "https://pureportal.spbu.ru/ru/persons/самвел-николаевич-тонян",
+      "category": "credential",
+      "identity_confidence": 0.85,
+      "identity_evidence": "точное ФИО+отчество, аффилиация СПбГУ совпадает с якорем ординатуры; страница не открылась напрямую (404 при fetch), подтверждено по индексации поиска",
+      "accepted": true
+    }
+  ],
+  "rejected": [
+    {
+      "fact": "HOMONYM: Тонян З.Н. (Мкртчян Л.А., Пуппо И.Л., Вавилова Т.В.) — тезисы 'Оценка типов сегрегации хромосом...' и 'Использование NGS-технологии...', Алмазовский молодежный медицинский форум 2023. Область — медицинская генетика.",
+      "source_url": "https://www.almazovcentre.ru/wp-content/uploads/Сборник-тезисов-АММФ-20231.pdf",
+      "category": "negative",
+      "identity_confidence": 0.15,
+      "identity_evidence": "другие инициалы (З.Н., не С.Н.), другая специальность (генетика), другой пол — однофамилец",
+      "accepted": false
+    },
+    {
+      "fact": "HOMONYM/UNRELATED: статья 'Реабилитация пациентов с постмастэктомическим синдромом: клинический пример', авторы Белова В.В. и др., Вестник Ивановской медицинской академии, 2017 — среди авторов Тоняна нет.",
+      "source_url": "https://cyberleninka.ru/article/n/reabilitatsiya-patsientov-s-postmastektomicheskim-sindromom-klinicheskiy-primer",
+      "category": "negative",
+      "identity_confidence": 0.05,
+      "identity_evidence": "совпадение только по теме; Тонян в списке авторов отсутствует, авторы из Иваново",
+      "accepted": false
+    },
+    {
+      "fact": "HOMONYM: ИП Тонян Самвел Семенович, Армавир (ИНН 237200756401) — предприниматель.",
+      "source_url": "https://www.rusprofile.ru/ip/321237500462267",
+      "category": "negative",
+      "identity_confidence": 0.1,
+      "identity_evidence": "другое отчество (Семенович, не Николаевич), другой город (Армавир), не медицина",
+      "accepted": false
+    },
+    {
+      "fact": "HOMONYM: Тонян В.А. (НГТУ, Новосибирск) — объекты интеллектуальной собственности/патенты в технической области.",
+      "source_url": "https://ciu.nstu.ru/kaf/persons/71201/nauchnaya_deyatelnost/innovation_ip",
+      "category": "negative",
+      "identity_confidence": 0.05,
+      "identity_evidence": "другие инициалы (В.А.), другой город (Новосибирск), техническая область — однофамилец",
+      "accepted": false
+    }
+  ]
+}

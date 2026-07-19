@@ -1,0 +1,61 @@
+{
+  "target": {
+    "full_name": "Магомедов Абдурахман Абдурагимович",
+    "city": "Санкт-Петербург",
+    "specialty": "Невролог, вертебролог",
+    "profile": "https://prodoctorov.ru/spb/vrach/708044-magomedov/"
+  },
+  "angle": "негатив: жалобы пациентов, судебные дела, дисциплинарные меры, скандалы в СМИ",
+  "accepted_findings": [],
+  "rejected_findings": [
+    {
+      "note": "REJECTED homonym — swapped name/surname, другой человек",
+      "name": "Абдурахманов Магомед Асхабович",
+      "source_url": "https://prodoctorov.ru/spb/vrach/265302-abdurahmanov/",
+      "reason": "невролог/мануальный терапевт СПб, но ФИО не совпадает (surname Абдурахманов, отчество Асхабович); отдельный профиль ЛОР НИИ. identity_confidence ~0.1"
+    },
+    {
+      "note": "REJECTED homonym — другой город и ФИО",
+      "name": "Магомедов Тимур Абдурахманович",
+      "source_url": "https://mamadeti.ru/doctors/magomedov-timur-abdurakhmanovich/",
+      "reason": "невролог, Москва, клиника «Мать и дитя». identity_confidence ~0.1"
+    },
+    {
+      "note": "REJECTED homonym — другой город и ФИО",
+      "name": "Магомедов Рустам Арсенович",
+      "source_url": "https://prodoctorov.ru/moskva/vrach/203745-magomedov/",
+      "reason": "невролог, Москва. identity_confidence ~0.1"
+    },
+    {
+      "note": "REJECTED homonym — другая специальность/город",
+      "name": "Магомедов Курбан Тимурович",
+      "source_url": "https://napopravku.ru/moskva/doctor-profile/magomedov-kurban-timurovich-lor/",
+      "reason": "ЛОР, Москва. identity_confidence ~0.05"
+    },
+    {
+      "note": "REJECTED homonym — другой город/специальность",
+      "name": "Магомедова Аида Бекахмедовна",
+      "source_url": "https://prodoctorov.ru/nizhnevartovsk/vrach/375362-magomedova/",
+      "reason": "детский невролог, Нижневартовск. identity_confidence ~0.05"
+    }
+  ],
+  "confirming_context_no_negative": {
+    "prodoctorov_own_profile": {
+      "url": "https://prodoctorov.ru/spb/vrach/708044-magomedov/",
+      "rating": "5.0/5.0",
+      "reviews_count": 106,
+      "negative_reviews": "не обнаружены — все видимые отзывы положительные"
+    },
+    "okklinik_clinic_reviews": {
+      "url": "https://prodoctorov.ru/spb/lpu/85665-okklinik/otzivi/",
+      "negative_about_magomedov": "не обнаружено; единственный низкий отзыв касался администратора/медсестры, не врача"
+    }
+  },
+  "not_found": {
+    "court_cases": "не обнаружено (поиск по врачебной ошибке/суду дал только общие юридические статьи, без упоминания данного врача)",
+    "disciplinary_measures": "не обнаружено",
+    "media_scandals": "не обнаружено",
+    "negative_reviews_other_platforms": "прямых профилей на НаПоправку/2ГИС/Яндекс/отзовиках именно с этим ФИО не найдено в выдаче"
+  },
+  "search_date": "2026-07-19"
+}

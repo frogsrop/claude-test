@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">Holy knight — isometric pixel-art hero</title>
+  <desc id="desc">A blond knight in steel armour and a blue cape holding a glowing holy two-handed sword.</desc>
+  <defs>
+    <linearGradient id="blade" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#91d8ff"/>
+      <stop offset=".48" stop-color="#fff"/>
+      <stop offset="1" stop-color="#b7efff"/>
+    </linearGradient>
+    <filter id="holy-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Soft isometric ground marker -->
+  <path d="M90 410 232 328l190 110-142 74z" fill="#071329" opacity=".28"/>
+  <path d="m125 408 112-65 150 87-112 58z" fill="none" stroke="#2874ad" stroke-width="4" opacity=".28"/>
+
+  <!-- Cape, built from large stepped pixel planes -->
+  <g id="cape">
+    <path d="m147 177 45-28 64 37 8 184-38 23-25-14-21 13-53-31 12-43-12-8 12-45-8-5z" fill="#0b2d62"/>
+    <path d="m147 177 45-20 25 15-11 179-26 41-53-31 12-43-12-8 12-45-8-5z" fill="#124a92"/>
+    <path d="m147 177 20-12-5 175-18 28-17-9 12-41-12-8 12-45-8-5z" fill="#2478c7"/>
+    <path d="m180 368 21 11 25 14 38-23v18l-39 23-25-14-20 12-53-31v-19z" fill="#071d48"/>
+    <path d="m161 191 28-16-3 150-17 10z" fill="#4aa5e7" opacity=".7"/>
+  </g>
+
+  <!-- Back shoulder and cape clasp -->
+  <path d="m139 174 51-30 75 44-35 29-59-1-40-23z" fill="#17294a"/>
+  <path d="m143 166 48-28 67 39-32 19-51-2z" fill="#326aa5"/>
+  <path d="m152 166 39-22 54 31-25 15-43-2z" fill="#5ca8df"/>
+
+  <!-- Legs and sabatons -->
+  <g id="legs" stroke="#14233d" stroke-width="5" stroke-linejoin="miter">
+    <path d="m182 325 47 27-8 74-34 20-25-15 14-38-12-7z" fill="#62728a"/>
+    <path d="m221 347 42-24 27 16-8 66-31 18-30-17z" fill="#8492a5"/>
+    <path d="m187 377 34 20-6 30-28 16-23-13 14-36-12-7z" fill="#aeb9c6"/>
+    <path d="m224 377 58-34-4 58-28 17-29-17z" fill="#718197"/>
+    <path d="m184 421 31 6 17 21-50 29-39-22z" fill="#96a5b6"/>
+    <path d="m246 405 32-5 31 18-10 25-32 19-39-23z" fill="#6c7d92"/>
+  </g>
+  <path d="m150 449 34 20 39-23 9 7-49 29-40-23z" fill="#d9e2ea"/>
+  <path d="m237 435 31 18 31-18 4 12-36 21-39-23z" fill="#c5d2dd"/>
+
+  <!-- Torso armour -->
+  <g id="armour" stroke="#14233d" stroke-width="5" stroke-linejoin="miter">
+    <path d="m176 197 48-28 66 38-5 113-57 33-61-35z" fill="#738399"/>
+    <path d="m224 169 66 38-5 113-57 33v-142z" fill="#596a82"/>
+    <path d="m184 205 39-23 53 31-3 46-45 26-48-28z" fill="#a7b4c3"/>
+    <path d="m223 182 53 31-3 46-45 26v-76z" fill="#7f8ea2"/>
+    <path d="m228 285 45-26 10 59-55 32-52-30 4-63z" fill="#66778d"/>
+    <path d="m228 285 45-26 10 59-55 32z" fill="#4f6078"/>
+  </g>
+  <!-- Breastplate highlights and holy insignia -->
+  <path d="m189 207 34-19v18l-29 17v29l-11-6 2-36z" fill="#e6edf3"/>
+  <path d="m229 214 32 18v15l-25 15-7-4z" fill="#ccd6e0"/>
+  <path d="m228 224 11 6v12l11 6-11 7v13l-11 6-11-6v-12l-11-7 11-6v-13z" fill="#f8fbff"/>
+  <path d="m228 235 6 4v16l-6 4-6-4v-16z" fill="#fff3a4"/>
+  <!-- Belt -->
+  <path d="m174 294 54 31 56-32v22l-56 32-55-31z" fill="#25354c"/>
+  <path d="m217 319 15 9v18l-15-9z" fill="#e2c25b"/>
+  <path d="m232 328 14-8v17l-14 9z" fill="#b88a2e"/>
+
+  <!-- Head, hair, and face -->
+  <g id="head" stroke="#14233d" stroke-width="5" stroke-linejoin="miter">
+    <path d="m181 104 44-25 48 28-4 63-45 26-47-27z" fill="#e5ad78"/>
+    <path d="m225 79 48 28-4 63-45 26v-72z" fill="#c9895e"/>
+    <path d="m173 101 50-29 58 34-8 31-16-9-7-19-19-11-25 14-17-2-7 22-16-9z" fill="#f2cf58"/>
+    <path d="m223 72 58 34-8 31-16-9-7-19-27-16z" fill="#d6a532"/>
+    <path d="m175 96 13-8 8-19 47-27 12 7-8 18 21 12-45-7z" fill="#ffe880"/>
+  </g>
+  <path d="m188 132 18-10v15l-9 5-9-5zm47-4 18 10v14l-9 5-9-6z" fill="#f7fbff"/>
+  <path d="m194 129 8-4v9l-8 4zm47 5 8 5v8l-8 4z" fill="#39a9ed"/>
+  <path d="m211 164 15 8 20-11v9l-20 12-15-9z" fill="#fff5df"/>
+
+  <!-- Pauldrons and arms -->
+  <g id="arms" stroke="#14233d" stroke-width="5" stroke-linejoin="miter">
+    <path d="m144 190 35-20 39 22-10 33-37 22-39-23z" fill="#b7c3cf"/>
+    <path d="m245 190 34-20 45 26-7 33-39 23-39-23z" fill="#7e8da0"/>
+    <path d="m145 235 34 20-16 72-28 16-22-13 14-65z" fill="#8d9caf"/>
+    <path d="m279 251 38-22 24 14-8 67-29 17-25-15z" fill="#6d7c91"/>
+    <path d="m135 301 29 17-4 34-27 16-27-16 7-31z" fill="#c4ced8"/>
+    <path d="m303 295 30-17 28 16-8 35-26 15-28-16z" fill="#94a3b5"/>
+  </g>
+  <path d="m138 198 35-20 29 17-31 18z" fill="#edf2f6"/>
+  <path d="m254 196 25-15 32 19-29 17z" fill="#b9c5d0"/>
+  <!-- White cloth accents -->
+  <path d="m139 247 25 15-5 20-25-15zm157 7 24-14 16 9-3 20-29 17z" fill="#f6f8fa"/>
+  <path d="m142 301 21 12-4 17-22-13zm163-9 28-16 11 7-4 18-29 16z" fill="#dfe7ee"/>
+
+  <!-- Hands gripping the sword -->
+  <path d="m116 327 16-9 25 14 2 21-19 11-25-14z" fill="#dca06e" stroke="#14233d" stroke-width="5"/>
+  <path d="m308 312 18-10 25 14-3 21-18 11-25-15z" fill="#bd7b54" stroke="#14233d" stroke-width="5"/>
+
+  <!-- Two-handed holy sword, crossing the silhouette on an isometric diagonal -->
+  <g id="sword" transform="rotate(-2 278 260)">
+    <path d="m112 348 14-8 209-209 25 14-207 210-15 24z" fill="#71d8ff" opacity=".42" filter="url(#holy-glow)"/>
+    <path d="m143 337 179-190 25 14-181 190-18 10z" fill="url(#blade)" stroke="#267aac" stroke-width="5" stroke-linejoin="miter"/>
+    <path d="m322 147 30-43 13 37-18 20z" fill="#fff" stroke="#267aac" stroke-width="5"/>
+    <path d="m158 332 178-174 11 6-181 187z" fill="#fff"/>
+    <path d="m119 321 16-10 52 30 1 18-17 10z" fill="#f5f7fa" stroke="#14233d" stroke-width="5"/>
+    <path d="m129 342 17-10 21 12-2 18-15 9-22-13z" fill="#d5b64d" stroke="#14233d" stroke-width="5"/>
+    <path d="m107 358 14-8 37 22-1 17-14 8-37-22z" fill="#2d3e59" stroke="#14233d" stroke-width="5"/>
+    <path d="m99 374 14-8 23 14-1 18-13 8-24-14z" fill="#ead06a" stroke="#14233d" stroke-width="5"/>
+    <!-- Pixel sparks -->
+    <g fill="#fff7a8" filter="url(#holy-glow)">
+      <path d="m339 80 7 12 12 7-12 7-7 12-7-12-12-7 12-7z"/>
+      <path d="m384 143 5 9 9 5-9 5-5 9-5-9-9-5 9-5z"/>
+      <path d="m283 137 4 8 8 4-8 4-4 8-4-8-8-4 8-4z"/>
+    </g>
+  </g>
+</svg>
